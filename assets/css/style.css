@@ -180,6 +180,10 @@
     align-items: center;
 }
 
+.border-text5:hover {
+     border-color:purple ; 
+}
+
 .border-text5{
     width: 41px;
     height: 40px;
@@ -254,7 +258,6 @@
     }
 
     .box{
-     height: 164;
      margin-inline: auto;
      padding: 20px;
      
@@ -275,26 +278,25 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 416px;
         height: 32px;
     }
 
-    .grad{
-        width:28px;
-        height:23.88px;
-        background:  #BABABA;
-
-        margin-left: 5px;
+    .book1{
+      margin-left: 20px; 
     }
 
-    .grad:hover{
+    .textbook:hover {
+        text-decoration: underline;
+        text-decoration-color: purple;
+    }
+
+    .book2:hover span {
         text-decoration: underline;
         text-decoration-color: purple;
     }
 
     .textbook{
-        width: 140px;
-        height: 26px;
+        margin-left: 12px;
 
         font-family:Gothi;
         font-style: normal;
@@ -309,21 +311,17 @@
 
     .vector{ 
     margin: 0px 20px; 
-    width: 0px;
     font-size: 32px;
 
     color: #E0E0E0;
     }
-    
-    .buch{
-     width: 30px;
-     height: 25px;
-     background: #000000;
+
+    .vector:hover{
+        color: purple;
     }
 
     .dictionary{
-        width: 152px;
-        height: 26px;
+        margin-left:11px ;
 
         font-family:Gothi;
         font-style: normal;
@@ -355,6 +353,15 @@
         width: 44px;
         height: 44px;
         border-radius: 14px;
+    }
+
+    .sprint1:hover{
+        text-decoration: underline;
+        text-decoration-color: purple;
+    }
+
+    .set1:hover{
+        color: purple;
     }
 
     .sprint1{
@@ -410,11 +417,15 @@
         color: #2B788B;
  }
 
+ .audio-call:hover{
+    text-decoration: underline;
+    text-decoration-color: purple;
+ }
+
     .set3{
         width: 40px;
         height: 40px;
         padding: 10px;
-        align-items: center;
         margin-right: 10px;
 
         background: #F6F5F4;
@@ -428,6 +439,11 @@
         justify-content: space-between;
         align-items: center;
         margin: 40px 175px;
+    }
+
+    .alfa:hover span{
+        text-decoration: underline;
+        text-decoration-color: purple;
     }
 
     .alfa1{
@@ -462,10 +478,12 @@
     border-radius: 4px;
  }
 
+ .alfa-box:hover{
+    border: 2px;
+    border-color: purple;
+ }
+
  .a1 {
-    width: 27px;
-    height: 17px;
-    
     font-family:Montser;
     font-style: normal;
     font-weight: 600;
@@ -510,9 +528,6 @@
  }
 
  .a2{
-    width: 27px;
-    height: 17px;
-
     font-family:Montser;
     font-style: normal;
     font-weight: 600;
@@ -521,8 +536,6 @@
 
     letter-spacing: -0.04em;
     color: #639B6D;
-
-
  }
 
  .alfa3{
@@ -557,9 +570,6 @@
  }
 
  .b1{
-    width: 50px;
-    height: 17px;
-
     font-family:Montser;
     font-style: normal;
     font-weight: 600;
@@ -602,9 +612,6 @@
  }
 
  .b2{
-    width: 50px;
-    height: 17px;
-
     font-family:Montser;
     font-style: normal;
     font-weight: 600;
@@ -647,9 +654,6 @@
  }
  
  .c1{
-    width: 29px;
-    height: 17px;
-
     font-family:Montser;
     font-style: normal;
     font-weight: 600;
@@ -692,9 +696,6 @@
  }
 
  .c2{
-    width: 29px;
-    height: 17px;
-
     font-family:Montser;
     font-style: normal;
     font-weight: 600;
@@ -737,14 +738,26 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        align-items: flex-end;
-        width: 51px;
-        height: 112px;
-        margin-top: -250px;
-        margin-left: 250px;
+        align-items:center;
+        position: absolute;
+       
+        margin-top:-300px;
+        margin-left:295px;
 
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 8px 0px 0px 8px;
+    }
+
+    .contet-nummer{
+        font-family: Montser;
+        font-style: normal;
+       font-weight: 600;
+       font-size: 16px;
+        line-height: 140%;
+        letter-spacing: -0.04em;
+        margin-left: 10.4px;
+
+          color: #FFFFFF;
     }
 
     .text-area{
@@ -762,6 +775,39 @@
         height: 40px;
     }
 
+    .compound:hover{
+        text-decoration: underline;
+        text-decoration-color: purple;
+    }
+
+    .remark:hover{
+         text-decoration: underline;
+         text-decoration-color: #2B788B;
+    }
+
+    .remark3:hover{
+        text-decoration: underline;
+        text-decoration-color: #2B788B;
+    }
+
+    p:hover{
+        text-decoration: underline;
+        text-decoration-color: #2B788B;
+    }
+
+    .linie:hover{
+        border-color:blue;
+    }
+
+    .but2:hover{
+        text-decoration: underline;
+        text-decoration-color: #2B788B;
+    }
+    .but3:hover{
+        text-decoration: underline;
+        text-decoration-color: #2B788B;
+    }
+
     .remark1{
         width: 136px;
         height: 32px;
@@ -774,8 +820,8 @@
 
         letter-spacing: -0.04em;
         color: #000000;
-
     }
+
     .remark2{
         width: 16px;
         height: 32px;
@@ -943,6 +989,8 @@
         display: flex;
         align-items: center;
         padding: 0px 40px 0px 0px;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     .room2{
@@ -951,7 +999,6 @@
         height: 336px;
         background: #FFFFFF;
         margin-inline: auto;
-        margin-top: 40px;
 
         box-shadow: 0px 22.8981px 45.7963px -11.4491px rgba(52, 41, 39, 0.08);
         border-radius: 14px;
@@ -968,14 +1015,31 @@
         width: 864px;
         height:44px;
         margin-inline: auto;
-        margin-left: 280px;
+        
     }
 
-    
+    .page-btn{
+        margin-inline:auto ;
+    }
 
-    .btn5{
+    .btn5:hover{
+        text-decoration: underline;
+        text-decoration-color:#2B788B;
+    }
+   
+    .btn2:hover{
+        text-decoration: underline;
+        text-decoration-color: #2B788B;
+    }
+ 
+    .btn3{
+        text-decoration: underline;
+        text-decoration-color:#2B788B ;
+    }
+
+     .btn5{
         align-items: center;
-        padding: 14px 17px;
+        
         width: 44px;
         height: 44px;
         margin-right: 24px;
@@ -995,7 +1059,7 @@
 
     .btn2{
         align-items: center;
-        padding: 14px 17px;
+        
         width: 44px;
         height: 44px;
         margin-right: 24px;
@@ -1029,27 +1093,6 @@
         letter-spacing: 0.04em;
 
         color: #757575;
-
-    }
-
-    .btn4{
-        align-items: center;
-        margin-right: 24px;
-        padding: 14px 13px;
-        width: 44px;
-        height: 44px;
-        
-        border: 3px solid #5996A5;
-        border-radius: 100px;
-
-        font-family:Montser;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 100%;
-        letter-spacing: -0.04em;
-
-        color: #5996A5;
     }
 
     .mark5{
@@ -1065,6 +1108,11 @@
         width: 1180px;  
     }
 
+    .footer_area:hover{
+        text-decoration: underline;
+        text-decoration-color: purple;
+    }
+    
     .footer1 {
         display: flex;
         align-items: flex-start;
