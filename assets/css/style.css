@@ -44,11 +44,6 @@
     color: #757575;
 }
 
-.dropbtn:hover{
-   text-decoration: underline;
-   text-decoration-color:purple ;
-}
-
 .dropdown {
     position: relative;
     display: inline-block;
@@ -91,11 +86,6 @@
     color: #333333;
 }
 
-.sprint:hover{
-    text-decoration: underline;
-    text-decoration-color: purple;
-}
-
 .audio{
     font-family: Montser;
     font-style: normal;
@@ -104,11 +94,6 @@
     line-height: 100%;
 
     color: #828282;
-}
-
-.audio:hover {
-    text-decoration: underline;
-    text-decoration-color: purple;
 }
 
 .text1{
@@ -123,21 +108,12 @@
     color: #000000;
 }
 
-.text1:hover {
-    text-decoration: underline;
-    text-decoration-color: purple;
-}
-
 .vector2{
     margin: 0px 30px;
     width: 0px;
     font-size:16.87px;
    
     color: #E0E0E0;
-}
-
-.vector2:hover{
-    color: purple;
 }
 
 .text3{
@@ -152,11 +128,6 @@
 
 }
 
-.text3:hover{
-    text-decoration: underline;
-    text-decoration-color: purple;
-}
-
 .text4{
     margin: 0px 30px;
     font-family:Montser;
@@ -169,19 +140,10 @@
     color: #757575;
 }
 
-.text4:hover {
-    text-decoration: underline;
-    text-decoration-color: purple;
-}
-
 .menu2{
     margin-left: auto;
     display: flex;
     align-items: center;
-}
-
-.border-text5:hover {
-     border-color:purple ; 
 }
 
 .border-text5{
@@ -191,10 +153,6 @@
 
     background: #C3DCE3;
     border-radius: 100px;
-}
-
-.border-text5:hover{
-   border-color: purple;
 }
 
 .text5{
@@ -207,11 +165,6 @@
     letter-spacing: -0.04em;
 
     color: #2B788B;
-}
-
-.text5:hover{
-    text-decoration: underline;
-    text-decoration-color: purple;
 }
 
 .text6{
@@ -227,11 +180,6 @@
     color: #757575;
 }
 
-.text6:hover {
-    text-decoration: underline;
-    text-decoration-color: purple;
-}
-
 .btn1{
     height: 16px;
     background-color: #F6F5F4;
@@ -245,11 +193,6 @@
     
     color: #000000;
     border: none;
-    }
-
-    .btn1:hover{
-        text-decoration: underline;
-        text-decoration-color: purple;
     }
 
     .mark1{
@@ -285,16 +228,6 @@
       margin-left: 20px; 
     }
 
-    .textbook:hover {
-        text-decoration: underline;
-        text-decoration-color: purple;
-    }
-
-    .book2:hover span {
-        text-decoration: underline;
-        text-decoration-color: purple;
-    }
-
     .textbook{
         margin-left: 12px;
 
@@ -314,10 +247,6 @@
     font-size: 32px;
 
     color: #E0E0E0;
-    }
-
-    .vector:hover{
-        color: purple;
     }
 
     .dictionary{
@@ -353,15 +282,6 @@
         width: 44px;
         height: 44px;
         border-radius: 14px;
-    }
-
-    .sprint1:hover{
-        text-decoration: underline;
-        text-decoration-color: purple;
-    }
-
-    .set1:hover{
-        color: purple;
     }
 
     .sprint1{
@@ -417,11 +337,6 @@
         color: #2B788B;
  }
 
- .audio-call:hover{
-    text-decoration: underline;
-    text-decoration-color: purple;
- }
-
     .set3{
         width: 40px;
         height: 40px;
@@ -441,17 +356,40 @@
         margin: 40px 175px;
     }
 
-    .alfa:hover span{
-        text-decoration: underline;
-        text-decoration-color: purple;
-    }
-
     .alfa1{
         width: 94px;
         height: 40px;
         display: flex;
         align-items: center;
     }
+
+    .alfa1{
+        padding-bottom: 5px;
+        border-bottom: 2px solid #000000;
+    }
+
+    .alfa1:hover{
+        border-bottom: 2px solid purple;
+    }
+
+    .alfa1::before{
+        width: 0px;
+        transition: width 0.3s;
+    }
+
+    .alfa1:hover:before{
+     position: absolute;
+     width: 100%;
+     height: 3px;
+     content: "";
+     bottom: -10px;
+     left: 0px;
+     z-index: 3;
+     background: #000000;
+     transition: all 0.3s;
+    }
+    
+
 
     .alfa_a1{
         width: 39px;
@@ -478,11 +416,6 @@
     border-radius: 4px;
  }
 
- .alfa-box:hover{
-    border: 2px;
-    border-color: purple;
- }
-
  .a1 {
     font-family:Montser;
     font-style: normal;
@@ -500,7 +433,13 @@
     height: 26px;
     display: flex;
     align-items: center;
+    
  }
+
+ .alfa2:hover{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #000000;
+}
 
  .alfa_a2{
        width: 44px;
@@ -545,6 +484,11 @@
     align-items: center;
  }
 
+ .alfa3:hover{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #000000;
+ }
+
  .alfa_b1{
     width: 38px;
     height: 26px;
@@ -585,6 +529,11 @@
      align-items: center;
      width: 122px;
     height: 26px;
+ }
+
+ .alfa4:hover{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #000000;
  }
 
  .alfa_b2{
@@ -629,6 +578,11 @@
     height: 26px;
  }
 
+ .alfa5:hover{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #000000;
+ }
+
  .alfa_c1{
     width: 39px;
     height: 26px;
@@ -669,6 +623,11 @@
     align-items: center;
     width: 103px;
    height: 26px;
+ }
+
+ .alfa6:hover{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #000000;
  }
 
  .alfa_c2{
@@ -725,6 +684,7 @@
     .foto{
         width: 337px;
         height: 336px;
+        position: relative;
     }
 
     .foto-room{
@@ -740,10 +700,12 @@
         flex-direction: column;
         align-items:center;
         position: absolute;
-       
-        margin-top:-300px;
-        margin-left:295px;
+        top: 40px;
+        right: 0;
 
+        width: 51px;
+        height: 98px;
+         
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 8px 0px 0px 8px;
     }
@@ -773,39 +735,6 @@
         align-items: center;
         width: 516px;
         height: 40px;
-    }
-
-    .compound:hover{
-        text-decoration: underline;
-        text-decoration-color: purple;
-    }
-
-    .remark:hover{
-         text-decoration: underline;
-         text-decoration-color: #2B788B;
-    }
-
-    .remark3:hover{
-        text-decoration: underline;
-        text-decoration-color: #2B788B;
-    }
-
-    p:hover{
-        text-decoration: underline;
-        text-decoration-color: #2B788B;
-    }
-
-    .linie:hover{
-        border-color:blue;
-    }
-
-    .but2:hover{
-        text-decoration: underline;
-        text-decoration-color: #2B788B;
-    }
-    .but3:hover{
-        text-decoration: underline;
-        text-decoration-color: #2B788B;
     }
 
     .remark1{
@@ -1015,26 +944,11 @@
         width: 864px;
         height:44px;
         margin-inline: auto;
-        
+        display: flex;
     }
 
     .page-btn{
         margin-inline:auto ;
-    }
-
-    .btn5:hover{
-        text-decoration: underline;
-        text-decoration-color:#2B788B;
-    }
-   
-    .btn2:hover{
-        text-decoration: underline;
-        text-decoration-color: #2B788B;
-    }
- 
-    .btn3{
-        text-decoration: underline;
-        text-decoration-color:#2B788B ;
     }
 
      .btn5{
@@ -1108,10 +1022,6 @@
         width: 1180px;  
     }
 
-    .footer_area:hover{
-        text-decoration: underline;
-        text-decoration-color: purple;
-    }
     
     .footer1 {
         display: flex;
