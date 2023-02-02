@@ -129,13 +129,24 @@
 }
 
 .text4{
-    margin: 0px 30px;
+    margin: 0px 15px;
     font-family:Montser;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 140%;
 
+    letter-spacing: -0.04em;
+    color: #757575;
+}
+
+.textstat{
+    
+    font-family:Montser;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
     letter-spacing: -0.04em;
     color: #757575;
 }
@@ -364,12 +375,7 @@
         cursor: pointer;
     
         padding-bottom: 5px;
-        border-bottom: 2px solid #000000;
         position: relative;
-    }
-
-    .alfa1:hover{
-        border-bottom: 2px solid purple;
     }
 
     .alfa1::before{
@@ -407,6 +413,7 @@
     height: 25px;
     padding: 4px 8px;
     margin-left: 12px;
+    
 
     background: #639B6D;
     border-radius: 4px;
@@ -429,12 +436,25 @@
     height: 26px;
     display: flex;
     align-items: center;
+    cursor: pointer;
+
+    padding-bottom: 14.5px;
+    position: relative;
  }
 
- .alfa2:hover{
-    padding-bottom: 5px;
-    border-bottom: 2px solid #000000;
+ .alfa2::before{
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 3px;
+    background: #000000;
+    bottom: 0px;
+    left: 0px;
+    transition: width 0.3s
 }
+.alfa2:hover:before{
+ width: 100%; 
+   }
 
  .alfa_a2{
        width: 44px;
@@ -477,12 +497,25 @@
     height: 26px;
     display: flex;
     align-items: center;
+    cursor: pointer;
+
+    padding-bottom: 5px;
+    position: relative;
  }
 
- .alfa3:hover{
-    padding-bottom: 5px;
-    border-bottom: 2px solid #000000;
- }
+ .alfa3::before{
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 3px;
+    background: #000000;
+    bottom: 0px;
+    left: 0px;
+    transition: width 0.3s
+}
+.alfa3:hover:before{
+ width: 100%; 
+   }
 
  .alfa_b1{
     width: 38px;
@@ -524,12 +557,25 @@
      align-items: center;
      width: 122px;
     height: 26px;
+    cursor: pointer;
+
+    padding-bottom: 5px;
+    position: relative;
  }
 
- .alfa4:hover{
-    padding-bottom: 5px;
-    border-bottom: 2px solid #000000;
- }
+ .alfa4::before{
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 3px;
+    background: #000000;
+    bottom: 0px;
+    left: 0px;
+    transition: width 0.3s
+}
+.alfa4:hover:before{
+ width: 100%; 
+   }
 
  .alfa_b2{
     width: 44px;
@@ -571,12 +617,25 @@
     align-items: center;
     width: 96px;
     height: 26px;
+    cursor: pointer;
+
+    padding-bottom: 5px;
+    position: relative;
  }
 
- .alfa5:hover{
-    padding-bottom: 5px;
-    border-bottom: 2px solid #000000;
- }
+ .alfa5::before{
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 3px;
+    background: #000000;
+    bottom: 0px;
+    left: 0px;
+    transition: width 0.3s
+}
+.alfa5:hover:before{
+ width: 100%; 
+   }
 
  .alfa_c1{
     width: 39px;
@@ -618,12 +677,26 @@
     align-items: center;
     width: 103px;
    height: 26px;
+   cursor: pointer;
+
+   padding-bottom: 5px;
+   position: relative;
  }
 
- .alfa6:hover{
-    padding-bottom: 5px;
-    border-bottom: 2px solid #000000;
- }
+ .alfa6::before{
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 3px;
+    background: #000000;
+    bottom: 0px;
+    left: 0px;
+    transition: width 0.3s
+}
+.alfa6:hover:before{
+ width: 100%; 
+   }
+
 
  .alfa_c2{
     width: 46px;
