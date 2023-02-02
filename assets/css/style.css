@@ -361,11 +361,11 @@
         height: 40px;
         display: flex;
         align-items: center;
-    }
-
-    .alfa1{
+        cursor: pointer;
+    
         padding-bottom: 5px;
         border-bottom: 2px solid #000000;
+        position: relative;
     }
 
     .alfa1:hover{
@@ -373,23 +373,19 @@
     }
 
     .alfa1::before{
+        position: absolute;
+        content: "";
         width: 0px;
+        height: 3px;
+        background: #000000;
+        bottom: 0px;
+        left: 0px;
         transition: width 0.3s;
     }
 
     .alfa1:hover:before{
-     position: absolute;
-     width: 100%;
-     height: 3px;
-     content: "";
-     bottom: -10px;
-     left: 0px;
-     z-index: 3;
-     background: #000000;
-     transition: all 0.3s;
-    }
-    
-
+     width: 100%; 
+   }
 
     .alfa_a1{
         width: 39px;
@@ -433,7 +429,6 @@
     height: 26px;
     display: flex;
     align-items: center;
-    
  }
 
  .alfa2:hover{
