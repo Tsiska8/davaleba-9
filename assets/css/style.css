@@ -129,7 +129,7 @@
 }
 
 .text4{
-    margin: 0px 15px;
+    margin-left: 30px;
     font-family:Montser;
     font-style: normal;
     font-weight: 600;
@@ -141,7 +141,7 @@
 }
 
 .textstat{
-    
+    margin: 0px 30px;
     font-family:Montser;
     font-style: normal;
     font-weight: 600;
@@ -221,7 +221,7 @@
         display: flex;
         justify-content:space-between;
         align-items: center;
-       
+        width: 1180px;
         height: 84px;
 
         background: #FFFFFF;
@@ -239,7 +239,16 @@
       margin-left: 20px; 
     }
 
-    .textbook{
+    .svg {
+        width:28px;
+        height:24px;
+      }
+
+       .svg:hover{
+        color:#000000;
+       }
+
+   .textbook{
         margin-left: 12px;
 
         font-family:Gothi;
@@ -251,6 +260,10 @@
         letter-spacing: -0.04em;
 
         color: #757575;
+    }
+
+    .textbook:hover{
+        color:#000000 ;
     }
 
     .vector{ 
@@ -271,14 +284,17 @@
 
         letter-spacing: -0.04em;
 
-        color: #000000;
+        color: #757575;
+    }
 
+    .dictionary:hover{
+        color:#000000 ; 
     }
 
     .settings{
         display: flex;
-        justify-content: space-between;
-        
+        align-items: center;
+        margin-left: auto;
     }
 
     .set1{
@@ -365,6 +381,7 @@
         justify-content: space-between;
         align-items: center;
         margin: 40px 175px;
+        margin-inline: auto;
     }
 
     .alfa1{
@@ -373,8 +390,8 @@
         display: flex;
         align-items: center;
         cursor: pointer;
-    
-        padding-bottom: 5px;
+        
+        padding-bottom: 14.5px;
         position: relative;
     }
 
@@ -405,7 +422,11 @@
 
         letter-spacing: -0.04em;
 
-        color: #000000;
+        color: #757575;
+ }
+
+ .alfa_a1:hover{
+    color:#000000;
  }
 
  .alfa-box{
@@ -413,12 +434,17 @@
     height: 25px;
     padding: 4px 8px;
     margin-left: 12px;
-    
 
-    background: #639B6D;
+    
+    background: rgba(99, 155, 109, 0.3);
     border-radius: 4px;
  }
 
+ .alfa-box:hover{
+    background: #639B6D;
+    border-radius: 4px;
+ }
+    
  .a1 {
     font-family:Montser;
     font-style: normal;
@@ -427,9 +453,12 @@
     line-height: 140%;
     
     letter-spacing: -0.04em;
-    color: #F6F5F4;
+    color: #639B6D;
  }
 
+ .a1:hover{
+    color: #F6F5F4;
+ }
 
  .alfa2{
     width: 99px;
@@ -470,6 +499,10 @@
         color: #757575;
  }
 
+ .alfa_a2:hover{
+    color:#000000;
+ }
+
  .alfa-box1{
     width: 43px;
     height: 25px;
@@ -478,9 +511,17 @@
 
     background: rgba(99, 155, 109, 0.3);
     border-radius: 4px;
-
  }
 
+ .alfa-box1:hover{
+    background: #639B6D;
+    border-radius: 4px;
+ }
+
+ .alfa-box1:hover:before{
+    width: 100%; 
+      }
+   
  .a2{
     font-family:Montser;
     font-style: normal;
@@ -492,6 +533,10 @@
     color: #639B6D;
  }
 
+ .a2:hover{
+    color: #F6F5F4;
+ }
+
  .alfa3{
     width: 116px;
     height: 26px;
@@ -499,7 +544,7 @@
     align-items: center;
     cursor: pointer;
 
-    padding-bottom: 5px;
+    padding-bottom:14.5px;
     position: relative;
  }
 
@@ -531,6 +576,10 @@
     color: #757575;
  }
 
+ .alfa_b1:hover{
+    color:#000000;
+ }
+
  .alfa-box2{
     width: 66px;
     height: 25px;
@@ -538,6 +587,11 @@
     margin-left: 12px;
 
     background: rgba(196, 162, 76, 0.3);
+    border-radius: 4px;
+ }
+
+ .alfa-box2:hover{
+    background: #C4A24C;
     border-radius: 4px;
  }
 
@@ -552,6 +606,10 @@
     color: #C4A24C;
  }
 
+ .b1:hover{
+    color: #F6F5F4;
+ }
+
  .alfa4{
      display: flex;
      align-items: center;
@@ -559,7 +617,7 @@
     height: 26px;
     cursor: pointer;
 
-    padding-bottom: 5px;
+    padding-bottom:14.5px;
     position: relative;
  }
 
@@ -591,6 +649,10 @@
     color: #757575;
  }
 
+ .alfa_b2:hover{
+    color:#000000;
+ }
+
  .alfa-box3{
     width: 66px;
     height: 25px;
@@ -598,6 +660,11 @@
     margin-left: 12px;
 
     background: rgba(196, 162, 76, 0.3);
+    border-radius: 4px;
+ }
+
+ .alfa-box3:hover{
+    background: #C4A24C;
     border-radius: 4px;
  }
 
@@ -612,6 +679,10 @@
     color: #C4A24C;
  }
 
+ .b2:hover{
+    color: #F6F5F4;
+ }
+
  .alfa5{
     display: flex;
     align-items: center;
@@ -619,7 +690,7 @@
     height: 26px;
     cursor: pointer;
 
-    padding-bottom: 5px;
+    padding-bottom:14.5px;
     position: relative;
  }
 
@@ -651,6 +722,10 @@
     color: #757575;
  }
 
+ .alfa_c1:hover{
+    color:#000000;
+ }
+
  .alfa-box4{
     width: 45px;
     height: 25px;
@@ -658,6 +733,11 @@
     margin-left: 12px;
 
     background: rgba(203, 91, 67, 0.3);
+    border-radius: 4px;
+ }
+ 
+ .alfa-box4:hover{
+    background: #CB5B43;
     border-radius: 4px;
  }
  
@@ -672,6 +752,10 @@
     color: #CB5B43;
  }
 
+ .c1:hover{
+    color: #F6F5F4;
+ }
+
  .alfa6{
     display: flex;
     align-items: center;
@@ -679,7 +763,7 @@
    height: 26px;
    cursor: pointer;
 
-   padding-bottom: 5px;
+   padding-bottom:14.5px;
    position: relative;
  }
 
@@ -712,6 +796,10 @@
     color: #757575;
  }
 
+ .alfa_c2:hover{
+    color:#000000;
+ }
+
  .alfa-box5{
     width: 45px;
     height: 25px;
@@ -719,6 +807,11 @@
     margin-left: 12px;
 
     background: rgba(203, 91, 67, 0.3);
+    border-radius: 4px;
+ }
+
+ .alfa-box5:hover{
+    background: #CB5B43;
     border-radius: 4px;
  }
 
@@ -731,6 +824,10 @@
 
     letter-spacing: -0.04em;
     color: #CB5B43;
+ }
+
+ .c2:hover{
+    color: #F6F5F4;
  }
 
     .mark2{
@@ -773,21 +870,34 @@
 
         width: 51px;
         height: 98px;
-         
+        
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 8px 0px 0px 8px;
     }
 
-    .contet-nummer{
-        font-family: Montser;
-        font-style: normal;
-       font-weight: 600;
-       font-size: 16px;
-        line-height: 140%;
-        letter-spacing: -0.04em;
-        margin-left: 10.4px;
+    .frame-content{
+        display: flex;
+         align-items: center;
+        width: 35px;
+        height: 22px;
+    }
 
-          color: #FFFFFF;
+    .null{
+        width: 11px;
+        height: 22px;
+        margin-left: 11px;
+        flex-direction: row;
+    }
+
+    .contet-nummer{
+    font-family: Montser;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+
+    color: #FFFFFF;
     }
 
     .text-area{
