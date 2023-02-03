@@ -244,8 +244,8 @@
         height:24px;
       }
 
-       .svg:hover{
-        color:#000000;
+       .book1:hover svg path{
+        fill:#000000;
        }
 
    .textbook{
@@ -262,7 +262,7 @@
         color: #757575;
     }
 
-    .textbook:hover{
+    .book1:hover .textbook{
         color:#000000 ;
     }
 
@@ -272,7 +272,9 @@
 
     color: #E0E0E0;
     }
+ .book2{
 
+ }
     .dictionary{
         margin-left:11px ;
 
@@ -287,7 +289,7 @@
         color: #757575;
     }
 
-    .dictionary:hover{
+    .book2:hover .dictionary{
         color:#000000 ; 
     }
 
@@ -395,6 +397,17 @@
         position: relative;
     }
 
+    .alfa1:hover .alfa_a1{
+        color:#000000;
+    }
+
+    .alfa1:hover .alfa-box{
+        background: #639B6D;
+    }
+    .alfa1:hover .a1{
+       color:#F6F5F4;
+    }
+
     .alfa1::before{
         position: absolute;
         content: "";
@@ -471,6 +484,15 @@
     position: relative;
  }
 
+.alfa2:hover .alfa_a2{
+    color:#000000;
+}
+.alfa2:hover .alfa-box1{
+    background: #639B6D;
+}
+.alfa2:hover .a2{
+   color:#F6F5F4;
+}
  .alfa2::before{
     position: absolute;
     content: "";
@@ -589,6 +611,16 @@
     background: rgba(196, 162, 76, 0.3);
     border-radius: 4px;
  }
+ 
+.alfa3:hover .alfa_b1{
+    color:#000000;
+}
+.alfa3:hover .alfa-box2{
+    background:  #C4A24C;
+}
+.alfa3:hover .b1{
+   color:#F6F5F4;
+}
 
  .alfa-box2:hover{
     background: #C4A24C;
@@ -634,6 +666,16 @@
 .alfa4:hover:before{
  width: 100%; 
    }
+
+ .alfa4:hover .alfa_b2{
+    color:#000000;
+ }
+.alfa4:hover .alfa-box3{
+    background:  #C4A24C;
+ }
+.alfa4:hover .b2{
+   color:#F6F5F4;
+ }
 
  .alfa_b2{
     width: 44px;
@@ -722,9 +764,19 @@
     color: #757575;
  }
 
- .alfa_c1:hover{
+ .alfa5:hover .alfa_c1{
     color:#000000;
- }
+  }
+  .alfa5:hover .alfa-box4{
+    background:  #CB5B43;
+  }
+  .alfa5:hover .c1{
+   color:#F6F5F4;
+  }
+
+  .alfa_c1:hover{
+    color:#000000;
+   }
 
  .alfa-box4{
     width: 45px;
@@ -781,6 +833,15 @@
  width: 100%; 
    }
 
+   .alfa6:hover .alfa_c2{
+    color:#000000;
+  }
+  .alfa6:hover .alfa-box5{
+    background:  #CB5B43;
+  }
+  .alfa6:hover .c2{
+   color:#F6F5F4;
+  }
 
  .alfa_c2{
     width: 46px;
@@ -862,7 +923,7 @@
     .content{
         display: flex;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
         align-items:center;
         position: absolute;
         top: 40px;
@@ -877,16 +938,15 @@
 
     .frame-content{
         display: flex;
-         align-items: center;
-        width: 35px;
-        height: 22px;
+        flex-direction: column;
+         gap: 10px;
     }
 
     .null{
-        width: 11px;
-        height: 22px;
-        margin-left: 11px;
-        flex-direction: row;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10.4px;
+        gap: 4px;
     }
 
     .contet-nummer{
